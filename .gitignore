@@ -1,0 +1,20 @@
+# Python environment
+venv/
+__pycache__/
+*.pyc
+*.pyo
+
+# MLflow tracking (auto-generated, regenerated on retrain)
+mlruns/
+mlflow.db
+
+# Raw data (large, publicly downloadable from Kaggle — see README for source)
+data/raw/*.csv
+
+# OS / editor junk
+.DS_Store
+.vscode/
+*.swp
+
+# Environment variables / secrets (if you add any later)
+.env
