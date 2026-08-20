@@ -3,6 +3,14 @@ import pandas as pd
 import plotly.express as px
 import xgboost as xgb
 
+# ---- make sure Python can find the "src" package ----
+# Streamlit only adds the folder containing this file (dashboard/) to its
+# import search path, not the project root above it — so "from src..."
+# would fail without this. This adds the project root manually.
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
+
 # ---- import the pricing/alert logic directly, instead of calling an API ----
 from src.models.pricing.optimize_price import recommend_base_price, pricing_confidence_score
 from src.api.routers.alerts import check_alerts
