@@ -114,5 +114,6 @@ wcwidth==0.8.2
 websockets==16.1.1
 Werkzeug==3.1.8
 xgboost==3.3.0
+plotly
 yarl==1.24.5
 zipp==4.1.0
