@@ -1,5 +1,5 @@
 # Enterprise Dynamic Pricing Intelligence Platform
-
+🔗 **Live Demo**: https://enterprise-dynamic-pricing-intelligenceplatform-appybrkaukxet2.streamlit.app/
 An ML-powered dynamic pricing system built for the Ezitech Engineering Framework (EEF) case study ML-001. Predicts demand, recommends optimal prices, simulates revenue impact, and surfaces business alerts for an e-commerce product catalog — built on the Olist Brazilian E-Commerce public dataset.
 
 ## What this project does
